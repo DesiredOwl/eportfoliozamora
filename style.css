@@ -295,9 +295,11 @@ nav ul li a:hover::after{
 nav .fas{
     display: none;
 }
-@media only screen and (max-width: 600px){
+@media screen and (max-width: 600px) {
     #header{
         background-image: url(img/DSC04739_mob.jpg.png);
+        width: 80vh;
+        height: 265vh;
     }
     .header-text{
         margin-top: 100%;
@@ -316,7 +318,7 @@ nav .fas{
         top: 0;
         right: -200px;
         width: 200px;
-        height: 100vh;
+        height: 265vh;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.2s;
@@ -331,7 +333,7 @@ nav .fas{
         left: 25px;
         cursor: pointer;
     }.sub-title{
-        font-size: 30px;
+        font-size: 40px;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
