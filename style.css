@@ -298,8 +298,8 @@ nav .fas{
 @media screen and (max-width: 600px) {
     #header{
         background-image: url(img/DSC04739_mob.jpg.png);
-        width: 80vh;
-        height: 265vh;
+        width: 100%;
+        height: 100vh;
     }
     .header-text{
         margin-top: 100%;
